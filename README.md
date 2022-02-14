@@ -17,8 +17,8 @@ composer require qtech/weight-conversion
 ## Usage
 
 ```php
-$skeleton = new QTech\WeightConversion();
-echo $skeleton->echoPhrase('Hello, QTech!');
+use \QTech\WeightConversion\Weight;
+echo Weight::kilograms(100)->toPounds()
 ```
 
 ## Testing
